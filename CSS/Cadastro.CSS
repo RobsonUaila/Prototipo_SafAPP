@@ -1,0 +1,65 @@
+   .cadastro-container {
+            max-width: 350px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .cadastro-container h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #222;
+        }
+        .cadastro-container label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #222;
+            font-weight: bold;
+        }
+        .cadastro-container input[type="text"],
+        .cadastro-container input[type="email"],
+        .cadastro-container input[type="password"] {
+            width: 100%;
+            padding: 0.7rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .cadastro-container input[type="submit"] {
+            width: 100%;
+            background: #e50914;
+            color: #fff;
+            border: none;
+            padding: 0.7rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .cadastro-container input[type="submit"]:hover {
+            background: #A34054;
+        }
+        .btn-voltar {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            background: #222;
+            color: #fff;
+            padding: 0.7rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn-voltar:hover {
+            background: #e50914;
+        }
+        @media (max-width: 500px) {
+            .cadastro-container {
+                margin: 20px;
+                padding: 1rem;
+            }
+        }
