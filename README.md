@@ -1,2 +1,2 @@
 # Prototipo_SafAPP
-Um Sistema de aluguer de filmes - backend em java/Spring boot
+Um Sistema de aluguer de filmes - backend em Node.js
